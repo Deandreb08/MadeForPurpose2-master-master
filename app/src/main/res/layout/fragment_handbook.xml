@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:text="Alex Fosco"/>
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/name"
+        android:text="Year: Sophomore"/>
+
+    <TextView
+        android:id="@+id/hometown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/year"
+        android:text="Hometown: Chicage, IL"/>
+
+    <TextView
+        android:id="@+id/fact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/hometown"
+        android:text="Fun Fact: Once time I got hit by a bike on campus. I look twice now when I cross the street."/>
+
+    <TextView
+        android:id="@+id/memory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/fact"
+        android:text="Favorite Memory at DSU: Joining my sorority and finding my home away from home."/>
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/memory"
+        android:paddingLeft="8dp"
+        android:text="Tip to survive freshman year: Learn time managemnet. Find out which strategies work best for you."/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

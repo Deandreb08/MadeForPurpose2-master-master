@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DELAWARE STATE</string>
+    <string-array name="planets_array">
+        <item>HOME</item>
+        <item>SCHEDULE</item>
+        <item>MY SCHEDULE</item>
+        <item>GOING ON NOW</item>
+        <item>HORNET TO HORNET</item>
+        <item>MAP</item>
+        <item>QUICK INFO</item>
+        <item>WEBSITE</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="welcome_message">Welcome to your New Student Orientation and Enrollment session!
+    Inside, you\'ll find your program schedule, a helpful map, and links to helpful resources around
+    campus. We\'re excited that your here! GO HORNETS!</string>
+
+</resources>

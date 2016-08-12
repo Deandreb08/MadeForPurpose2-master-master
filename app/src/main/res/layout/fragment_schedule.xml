@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dsuappacademy.newstudent.HomeFragment">
+
+
+
+    <TextView
+        android:id="@+id/day1textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp"
+        android:text="DAY 1"
+        android:textColor="#2196F3"/>
+
+    <TextView
+        android:id="@+id/day2textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/day1textView"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp"
+        android:text="DAY 2" />
+
+    <include
+        layout="@layout/event_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nowtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp"
+        android:text="NOW"
+        android:textColor="#2196F3"/>
+
+    <TextView
+        android:id="@+id/nexttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/nowtextview"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:textSize="16dp"
+        android:text="NEXT"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="There are no events going on now.Check back later"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/nowtextview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="220dp"/>
+
+
+</RelativeLayout>

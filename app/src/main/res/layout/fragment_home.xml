@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dsuappacademy.newstudent.HomeFragment">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="775dp"
+        android:src="@drawable/home"
+        android:layout_gravity="right|top"/>
+
+    <TextView
+        android:id="@+id/hornet_nation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#DSUACCEPTED"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="40dp"
+        android:text="@string/welcome_message"
+       android:layout_below="@+id/hornet_nation"/>
+
+</FrameLayout>
